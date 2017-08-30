@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+     
+    <title> Cosplay-About Us</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <style type="text/css">
+  </style>
+</head>
+    <header>
+<div id="content">
+            <img src="images/Logo.png" alt= "image unavailable" width="75px"; height="73px";> </div>
+    </header>
+<body>
+    <div id="topnav">
+    <ul>
+    <li><a href="Index.html"> Home</a></li>
+    <li><a href="AboutUs.html"> About Us</a></li>
+    <li><a href="Products.html"> Products</a></li>
+     <li><a href="ContactUs.html"> Contact Us</a></li>
+    <li><a href="SignUp.html"> Register</a></li></ul>
+        </div>
+    <h4> Who are we?</h4>
+    <p><p>CossiePlay is a family-run business, operating in Hulkstown since 2012. We create outstanding custom-made costumes. Cosplayers can order any kind of costume - from simple Spiderman or elf costumes right up to costumes including advanced features like armour, animatronics, realistic weaponry and working force fields. 
+    We buy and sell second-hand costumes (a price list is available) as well.</p>
+     <div class="product">
+    <table>
+   
+        <tr><td>
+    <img src="images/sewing-hands-1418016.jpg" alt="Image Unavailable" width="500" height="400">
+        <div class="desc">Expert Precision</div>
+</td>
+    
+<td>
+<img src="images/boromir-4-1478698.jpg" alt="Image Unavailable" width="300" height="400">
+            <div class="desc">Comofortable and Trendy</div>
+
+</td>
+            <td>
+            <img src="images/spiderman-in-nature-2-1258899-640x480.jpg" alt="Image Unavailable" width="350" height="400">
+             <div class="desc">We make custom costumes</div></td>
+    </tr>    
+    </table> 
+    </div>       
+         
+<div class="footer">
+
+<p><strong>Phone:</strong>07 4771 1234</p>|
+    
+<p><strong>Fax:</strong> 07-4771 1235</p>|
+    
+<p><strong>Address:</strong> 4 Stanton Avenue, Hulkstwon</p>|
+<p><strong>E-mail:</strong>cossieplay@gmail.com</p>|
+<a href="GuideLines.html"> Rules</a>|<br>
+<p>&copy; 2017 All Rights Reserved</p>
+
+</div>
+</body>
+</html>

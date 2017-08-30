@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cosplay- Register</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <style type="text/css">
+   
+input[type=text], select {
+    width: 55%;
+    padding: 12px 20px;
+    margin: 8px 0 25px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=tel], select {
+    width: 55%;
+    padding: 12px 20px;
+    margin: 8px 0 25px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+      input[type=date], select {
+    width: 55%;
+    padding: 12px 20px;
+    margin: 8px 0 25px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=number], select {
+    width: 55%;
+    padding: 12px 20px;
+    margin: 8px 0 25px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+
+}
+</style>
+</head>
+<body>
+    <header>
+<div id="content">
+            <img src="images/Logo.png" alt= "image unavailable" width="75px"; height="73px";> </div>
+    </header>
+    <div id="topnav">
+    <ul>
+    <li><a href="Index.html"> Home</a></li>
+    <li><a href="AboutUs.html"> About Us</a></li>
+    <li><a href="Products.html"> Products</a></li>
+     <li><a href="ContactUs.html"> Contact Us</a></li>
+    <li><a href="SignUp.html"> Register</a></li></ul>
+        </div>
+
+<div>
+  <form action= "Form.htm">
+    <h4>First Name</h4>
+    <input type="text" id="fname" name="firstname" placeholder="First Name" required>
+
+    <h4>Last Name</h4>
+    <input type="text" id="lname" name="lastname" placeholder="Last Name" required>
+      
+    <h4>E-Mail</h4>
+      <input type="text" id="e-mail" name="E-mail" placeholder="E-mail" required>
+     <h4>Ph. Number</h4>
+  <input type="tel" name="usrtel" placeholder="+07 87654321" required>
+      
+      <H4>Date of Birth</H4>
+      <input type="date" id="DOB" name="date of Birth" placeholder="Your Birthdate">
+    <h4>Select your Gender</h4>
+ <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+<br>
+      
+ <h4> Number of People</h4>
+<input type="number" id="pc" name="Ppl" placeholder="No. of People" required>
+
+    <h4> Address</h4>
+    <input type="text" id="Flat" name="Flat" placeholder="Flat">
+    <input type="text" id="Street" name="Street" placeholder="Street">
+      <input type="text" id="Area" name="Area" placeholder="Area">
+    <h4> Pin Code</h4>
+      <input type="number" id="pc" name="pin" placeholder="Pin Code">
+   <br>
+      </form>
+  <div class="register">
+    <a href="Thanks.html"> Register Now!</a>
+  
+</div>
+    </div>
+    
+    <div class="footer">
+
+<p><strong>Phone:</strong>07 4771 1234</p>|
+    
+<p><strong>Fax:</strong> 07-4771 1235</p>|
+    
+<p><strong>Address:</strong> 4 Stanton Avenue, Hulkstwon</p>|
+<p><strong>E-mail:</strong>cossieplay@gmail.com</p>|
+<a href="GuideLines.html"> Rules</a>|<br>
+<p>&copy; 2017 All Rights Reserved</p>
+
+</div>
+
+</body>
+</html>
+
+
